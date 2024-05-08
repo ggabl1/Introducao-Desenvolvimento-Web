@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jacquard+12+Charted&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&display=swap');
+h1{
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+img{
+    width: 800px;
+    height: 500px;
+    /*codigo para centralizar*/
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+h2{
+    font-family: "Quicksand", sans-serif;
+}
+p{
+    text-align: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+button{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(6, 66, 66);
+    border-radius: 10px;
+    background: linear-gradient(#00c8ff, #acffff);
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+button:hover{
+background:rgb(186, 220, 252);    
+}
+button a{
+    color: black;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+button a:hover{
+    color: white;
+}
