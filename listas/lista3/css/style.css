@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Kaushan+Script&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+#menu{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: "Kaushan Script";
+    margin-top: 50px;
+}
+h4{
+    font-family: "Philosopher", sans-serif;
+}
+.item-menu{
+    color: rgb(14, 7, 5);
+    font-size: 30px;
+    width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    transition: .5s;
+    height: 300px;
+    border: none;
+}
+.item-menu:hover{
+    font-size: 32px;
+    color: black;
+}
+#PousadasUbatuba{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+#PousadasSantos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+#PousadasGuaruja{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.Ubatuba{
+    width: 200px;
+    height: 333px;
+    border: 1px solid black;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+    font-family: "Albert Sans", sans-serif
+}
+.Ubatuba:hover{
+    width: 205px;
+    height: 340px;
+    font-size: 17px;
+    transition: .5s;
+}
+.Santos{
+    width: 200px;
+    height: 333px;
+    border: 1px solid black;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+    font-family: "Albert Sans", sans-serif
+}
+.Santos:hover{
+    width: 205px;
+    height: 340px;
+    font-size: 17px;
+    transition: .5s;
+}
+.Guaruja{
+    width: 200px;
+    height: 325px;
+    border: 1px solid black;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+    font-family: "Albert Sans", sans-serif
+}
+.Guaruja:hover{
+    width: 205px;
+    height: 340px;
+    font-size: 17px;
+    transition: .5s;
+}
+img{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+}
+body{
+    background: linear-gradient(rgb(234, 105, 7), rgb(238, 176, 122));
+}
+button{
+    border-radius: 10%;
+    background: rgb(255, 0, 0);
+    border: 0cm;
+    color: #fff;
+}
+button:hover{
+    background:rgb(116, 0, 0);
+    transition: .5s;
+}
