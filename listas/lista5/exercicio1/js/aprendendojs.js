@@ -1,0 +1,5 @@
+var nome = prompt("digite seu nome: ")
+var idade = Number(prompt("digite sua idade: "))
+var empregoAtual = prompt("digite seu emprego atual: ")
+var endereco = prompt("digite seu endereço: ")
+alert(`Seu nome é ${nome} \nSua idade é ${idade} \nSua profissao é ${empregoAtual} \nSeu endereco é ${endereco}`)
