@@ -1,0 +1,15 @@
+.botoes{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+body{
+    background-color: aquamarine;
+}
+button{
+    margin-top: 50px;
+    width: 30px;
+    height: 30px;
+}
