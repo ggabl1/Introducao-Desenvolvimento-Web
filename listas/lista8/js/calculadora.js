@@ -1,12 +1,22 @@
-let num1 = document.getElementById('n1')
-let num2 = document.getElementById('n2')
-function multiplica(n1,n2){
-    let resultadoM = n1 * n2
-    console.log(resultadoM)
-}
-function divide(n1, n2){
-    let resultadoD = n1/n2
-    console.log(resultadoD)
-}
+let calculadora = document.getElementById(`Calculadora`)
+let numeroDigitado = ''
+for(let indiceNumero = 0; indiceNumero  < 10; indiceNumero++){
+    let botao = document.createElement('button')
+    botao.textContent = indiceNumero
+    botao.value = indiceNumero
+    botao.id = `btn-${indiceNumero}`
 
-multiplica(Number(num1.value), Number(num2.value))
+    if (indiceNumero % 2 == 0){
+        botao.className = 'btn-par btn'
+    }
+    else{
+        botao.className = 'btn-impar btn'
+    }
+
+    botao.addEventListener(`click`, (evento) =>{
+        numeroDigitado +=evento.target.value
+        console.log(numeroDigitado)
+    })
+
+    calculadora.appendChild(botao)
+}

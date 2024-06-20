@@ -1,15 +1,21 @@
-.botoes{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
+#botoes{
     border: 1px solid black;
+    margin-top: 90px;
 }
 body{
     background-color: aquamarine;
+    display:flex;
+    justify-content: center;
 }
 button{
     margin-top: 50px;
     width: 30px;
     height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+button:hover{
+    transition: .5;
+    background-color: rgba(0, 0, 255, 0.147);
 }
