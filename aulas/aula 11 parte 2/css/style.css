@@ -1,0 +1,18 @@
+@import url('../css/reset.css');
+.imagem {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: animacao 10s linear infinite;
+}
+
+
+@keyframes animacao{
+0%{
+    transform: rotate(360deg);
+    filter: hue-rotate(900deg);
+}
+100%{
+    
+}
+}
